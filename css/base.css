@@ -1,0 +1,19 @@
+:root {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: #fff;
+}
+
+@media (width>=1440px) {
+  main {
+    width: 1440px;
+    align-items: center;
+    gap: 64px;
+  }
+}
